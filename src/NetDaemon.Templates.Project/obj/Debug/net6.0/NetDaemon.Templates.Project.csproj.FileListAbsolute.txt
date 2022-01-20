@@ -1,0 +1,12 @@
+C:\git\csproj-template\src\NetDaemon.Templates.Project\bin\Debug\net6.0\NetDaemon.Templates.Project.deps.json
+C:\git\csproj-template\src\NetDaemon.Templates.Project\bin\Debug\net6.0\NetDaemon.Templates.Project.dll
+C:\git\csproj-template\src\NetDaemon.Templates.Project\bin\Debug\net6.0\ref\NetDaemon.Templates.Project.dll
+C:\git\csproj-template\src\NetDaemon.Templates.Project\bin\Debug\net6.0\NetDaemon.Templates.Project.pdb
+C:\git\csproj-template\src\NetDaemon.Templates.Project\obj\Debug\net6.0\NetDaemon.Templates.Project.csproj.AssemblyReference.cache
+C:\git\csproj-template\src\NetDaemon.Templates.Project\obj\Debug\net6.0\NetDaemon.Templates.Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\csproj-template\src\NetDaemon.Templates.Project\obj\Debug\net6.0\NetDaemon.Templates.Project.AssemblyInfoInputs.cache
+C:\git\csproj-template\src\NetDaemon.Templates.Project\obj\Debug\net6.0\NetDaemon.Templates.Project.AssemblyInfo.cs
+C:\git\csproj-template\src\NetDaemon.Templates.Project\obj\Debug\net6.0\NetDaemon.Templates.Project.csproj.CoreCompileInputs.cache
+C:\git\csproj-template\src\NetDaemon.Templates.Project\obj\Debug\net6.0\NetDaemon.Templates.Project.dll
+C:\git\csproj-template\src\NetDaemon.Templates.Project\obj\Debug\net6.0\ref\NetDaemon.Templates.Project.dll
+C:\git\csproj-template\src\NetDaemon.Templates.Project\obj\Debug\net6.0\NetDaemon.Templates.Project.pdb

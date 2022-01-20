@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "helto4real",
+  "classifications": [ "NetDaemon", "Project" ],
+  "identity": "NetDaemon.Template.Project.Default",
+  "name": "NetDaemon: Default project temaplate",
+  "shortName": "nd_project",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>JoySoftware.NetDaemon.Templates.Project</id>
+    <version>22.1.0</version>
+    <title>Netdaemon project template for dotnet cli</title>
+    <authors>helto4real</authors>
+    <description>This package provides project templates for the dotnet cli</description>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0/templates/netdaemon/.devcontainer/devcontainer.json" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/.devcontainer/Dockerfile" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/.gitattributes" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/.gitignore" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/.vscode/daemon.code-snippets" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/.vscode/launch.json" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/.vscode/tasks.json" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/appsettings.json" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/apps/AppModel/YamlConfigApp/YamlConfigApp.cs" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/apps/AppModel/YamlConfigApp/YamlConfigApp.yaml" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/apps/Extensions/Scheduling/Scheduling.cs" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/apps/GlobalUsings.cs" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/apps/HassModel/HelloWorld/HelloWorld.cs" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/apps/HassModel/LightOnMovement/LightOnMovement.cs" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/daemonapp.csproj" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/Properties/launchSettings.json" buildAction="Content" />
+      <files include="any/net6.0/templates/netdaemon/template.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\bin\Debug\net6.0\NetDaemon.Templates.Project.dll" target="lib\net6.0\NetDaemon.Templates.Project.dll" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.devcontainer\devcontainer.json" target="content\templates\netdaemon\.devcontainer\devcontainer.json" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.devcontainer\devcontainer.json" target="contentFiles\any\net6.0\templates\netdaemon\.devcontainer\devcontainer.json" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.devcontainer\Dockerfile" target="content\templates\netdaemon\.devcontainer\Dockerfile" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.devcontainer\Dockerfile" target="contentFiles\any\net6.0\templates\netdaemon\.devcontainer\Dockerfile" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.gitattributes" target="content\templates\netdaemon\.gitattributes" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.gitattributes" target="contentFiles\any\net6.0\templates\netdaemon\.gitattributes" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.gitignore" target="content\templates\netdaemon\.gitignore" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.gitignore" target="contentFiles\any\net6.0\templates\netdaemon\.gitignore" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.vscode\daemon.code-snippets" target="content\templates\netdaemon\.vscode\daemon.code-snippets" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.vscode\daemon.code-snippets" target="contentFiles\any\net6.0\templates\netdaemon\.vscode\daemon.code-snippets" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.vscode\launch.json" target="content\templates\netdaemon\.vscode\launch.json" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.vscode\launch.json" target="contentFiles\any\net6.0\templates\netdaemon\.vscode\launch.json" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.vscode\tasks.json" target="content\templates\netdaemon\.vscode\tasks.json" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\.vscode\tasks.json" target="contentFiles\any\net6.0\templates\netdaemon\.vscode\tasks.json" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\appsettings.json" target="content\templates\netdaemon\appsettings.json" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\appsettings.json" target="contentFiles\any\net6.0\templates\netdaemon\appsettings.json" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\AppModel\YamlConfigApp\YamlConfigApp.cs" target="content\templates\netdaemon\apps\AppModel\YamlConfigApp\YamlConfigApp.cs" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\AppModel\YamlConfigApp\YamlConfigApp.cs" target="contentFiles\any\net6.0\templates\netdaemon\apps\AppModel\YamlConfigApp\YamlConfigApp.cs" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\AppModel\YamlConfigApp\YamlConfigApp.yaml" target="content\templates\netdaemon\apps\AppModel\YamlConfigApp\YamlConfigApp.yaml" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\AppModel\YamlConfigApp\YamlConfigApp.yaml" target="contentFiles\any\net6.0\templates\netdaemon\apps\AppModel\YamlConfigApp\YamlConfigApp.yaml" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\Extensions\Scheduling\Scheduling.cs" target="content\templates\netdaemon\apps\Extensions\Scheduling\Scheduling.cs" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\Extensions\Scheduling\Scheduling.cs" target="contentFiles\any\net6.0\templates\netdaemon\apps\Extensions\Scheduling\Scheduling.cs" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\GlobalUsings.cs" target="content\templates\netdaemon\apps\GlobalUsings.cs" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\GlobalUsings.cs" target="contentFiles\any\net6.0\templates\netdaemon\apps\GlobalUsings.cs" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\HassModel\HelloWorld\HelloWorld.cs" target="content\templates\netdaemon\apps\HassModel\HelloWorld\HelloWorld.cs" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\HassModel\HelloWorld\HelloWorld.cs" target="contentFiles\any\net6.0\templates\netdaemon\apps\HassModel\HelloWorld\HelloWorld.cs" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\HassModel\LightOnMovement\LightOnMovement.cs" target="content\templates\netdaemon\apps\HassModel\LightOnMovement\LightOnMovement.cs" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\apps\HassModel\LightOnMovement\LightOnMovement.cs" target="contentFiles\any\net6.0\templates\netdaemon\apps\HassModel\LightOnMovement\LightOnMovement.cs" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\daemonapp.csproj" target="content\templates\netdaemon\daemonapp.csproj" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\daemonapp.csproj" target="contentFiles\any\net6.0\templates\netdaemon\daemonapp.csproj" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\Properties\launchSettings.json" target="content\templates\netdaemon\Properties\launchSettings.json" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\Properties\launchSettings.json" target="contentFiles\any\net6.0\templates\netdaemon\Properties\launchSettings.json" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\template.json" target="content\templates\netdaemon\template.json" />
+    <file src="C:\git\csproj-template\src\NetDaemon.Templates.Project\templates\netdaemon\template.json" target="contentFiles\any\net6.0\templates\netdaemon\template.json" />
+  </files>
+</package>

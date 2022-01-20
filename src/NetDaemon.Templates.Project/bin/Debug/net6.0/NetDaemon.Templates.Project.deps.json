@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NetDaemon.Templates.Project/1.0.0": {
+        "runtime": {
+          "NetDaemon.Templates.Project.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NetDaemon.Templates.Project/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>JoySoftware.NetDaemon.Templates.Project</PackageId>
+    <PackageVersion>22.1.0</PackageVersion>
+    <PackageType>Template</PackageType>
+    <Title>Netdaemon project template for dotnet cli</Title>
+    <Authors>helto4real</Authors>
+    <Description>This package provides project templates for the dotnet cli</Description>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="templates\netdaemon\apps\HelloWorld" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="templates\netdaemon\apps\GlobalUsings.cs" />
+    <Compile Include="templates\netdaemon\program.cs" />
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>
