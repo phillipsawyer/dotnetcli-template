@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "daemonapp": {
+    "Project_Name": {
       "commandName": "Project",
       "workingDirectory": "$(SolutionDir)",
       "environmentVariables": {
