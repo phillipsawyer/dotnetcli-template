@@ -11,6 +11,8 @@
     <Authors>helto4real</Authors>
     <Description>This package provides project templates for the dotnet cli</Description>
     <NoDefaultExcludes>true</NoDefaultExcludes>
+    <projectUrl>https://github.com/net-daemon/netdaemon</projectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
