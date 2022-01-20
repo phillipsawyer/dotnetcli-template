@@ -4,7 +4,7 @@
   "classifications": [ "NetDaemon", "Project" ],
   "identity": "NetDaemon.Template.Project.Default",
   "name": "NetDaemon: Default project template",
-  "shortName": "nd_project",
+  "shortName": "nd-project",
   "sourceName": "Project_Name",
   "tags": {
     "language": "C#",
