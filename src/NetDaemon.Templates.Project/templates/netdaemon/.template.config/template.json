@@ -9,5 +9,31 @@
   "tags": {
     "language": "C#",
     "type": "project"
+  },
+  "symbols": {
+    "host": {
+      "type": "parameter",
+      "datatype": "text",
+      "replaces": "ha_host",
+      "defaultValue": "localhost"
+    },
+    "port": {
+      "type": "parameter",
+      "datatype": "text",
+      "replaces": "ha_port",
+      "defaultValue": "8123"
+    },
+    "use-ssl": {
+      "type": "parameter",
+      "datatype": "bool",
+      "replaces": "ha_ssl",
+      "defaultValue": "false"
+    },    
+    "token": {
+      "type": "parameter",
+      "datatype": "text",
+      "replaces": "ha_token",
+      "defaultValue": "insert_token_later_in_appsettings"
+    }
   }
 }
