@@ -26,7 +26,6 @@
     "use-ssl": {
       "type": "parameter",
       "datatype": "bool",
-      "replaces": "ha_ssl",
       "defaultValue": "false"
     },    
     "token": {

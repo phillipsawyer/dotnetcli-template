@@ -63,3 +63,5 @@ appsettings.Development.json
 # remove HA integration test files from git
 tests/Integration/HA/config/*
 !tests/Integration/HA/config/*.yaml
+
+*.idea
