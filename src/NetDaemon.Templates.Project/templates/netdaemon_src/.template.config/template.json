@@ -2,10 +2,10 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "helto4real",
   "classifications": [ "NetDaemon", "Project" ],
-  "identity": "NetDaemon.Template.Project.Default",
-  "name": "NetDaemon: Default project template",
-  "shortName": "nd-project",
-  "sourceName": "NetDaemonApps",
+  "identity": "NetDaemon.Template.Project.SourceDeploy",
+  "name": "NetDaemon: Source deployment project template",
+  "shortName": "nd-src-project",
+  "sourceName": "NetDaemonSourceDeployApps",
   "tags": {
     "language": "C#",
     "type": "project"

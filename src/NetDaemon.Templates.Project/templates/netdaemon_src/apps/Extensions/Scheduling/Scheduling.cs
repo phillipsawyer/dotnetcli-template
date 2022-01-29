@@ -3,7 +3,6 @@ using NetDaemon.Extensions.Scheduler;
 // Use unique namespaces for your apps if you going to share with others to avoid
 // conflicting names
 namespace Extensions.Scheduling;
-
 /// <summary>
 ///     Showcase the scheduling capabilities of NetDaemon
 /// </summary>
@@ -17,8 +16,7 @@ public class SchedulingApp
         {
             // Make sure we do not flood the notifications :)
             if (count++ < 3)
-                ha.CallService("notify", "persistent_notification",
-                    data: new {message = "This is a scheduled action!", title = "Schedule!"});
+                ha.CallService("notify", "persistent_notification", data: new { message = "This is a scheduled action!", title = "Schedule!" });
         });
     }
 }
