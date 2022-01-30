@@ -1,5 +1,5 @@
-# Project template for source deploy
-This is the project template for source deploy. You will use this template if you want to deploy your NetDaemon apps as is and let NetDaemon runtime compile them at run-time. This allows you to easier edit the files in source editor in Home Assistant like Visual Studio Code server.  
+# Project template for binary deploy
+This is the project template for binary deploy. This allows you to build a binary package and deploy it to NetDaemon.  
 
 ## Getting started
 Please see [netdaemon.xyz](https://netdaemon.xyz/docs/v3) for more information about getting starting developing apps for Home Assistant using NetDaemon.
