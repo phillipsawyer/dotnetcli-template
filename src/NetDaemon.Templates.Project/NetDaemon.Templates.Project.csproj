@@ -16,11 +16,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="templates\netdaemon\apps\HelloWorld" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Include="templates\netdaemon\apps\GlobalUsings.cs" />
+    <Compile Include="templates\netdaemon\apps\GlobalUsings.cs" />
+    <Compile Include="templates\netdaemon\program.cs" />
     <Compile Include="templates\netdaemon\program.cs" />
     <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />

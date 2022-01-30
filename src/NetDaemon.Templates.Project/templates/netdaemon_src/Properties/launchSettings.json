@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "NetDaemonApps": {
+    "DebugProject": {
       "commandName": "Project",
       "workingDirectory": "$(ProjectDir)",
       "environmentVariables": {

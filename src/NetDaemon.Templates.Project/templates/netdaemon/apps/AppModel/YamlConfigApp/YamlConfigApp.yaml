@@ -1,2 +1,2 @@
-HelloYamlApp.HelloConfig:
-    HelloMessage: Hello from yaml
+AppModel.HelloConfig:
+  HelloMessage: Hello from yaml
