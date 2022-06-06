@@ -31,4 +31,4 @@ jobs:
       - name: 🎁 Pack AppModel
         run: dotnet pack . --configuration Release -p:PackageVersion=${{ steps.version.outputs.version }}
       - name: 📨 Push to nuget
-        run: dotnet nuget push **/*.nupkg --api-key ${{secrets.NUGET_API_KEY}} --source https://api.nuget.org/v3/index.json --no-symbols true
+        run: dotnet nuget push **/*.nupkg --api-key ${{secrets.NUGET_API_KEY}} --source https://api.nuget.org/v3/index.json --no-symbols
