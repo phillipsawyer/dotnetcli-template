@@ -23,7 +23,7 @@ jobs:
           echo Current version:    $latest
           echo "::set-output name=version::$latest"
 
-      - name: 🥅 Install .Net 8
+      - name: 🥅 Install .Net 7
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: "7.0.x" # SDK Version
